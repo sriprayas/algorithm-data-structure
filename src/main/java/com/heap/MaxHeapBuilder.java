@@ -39,7 +39,7 @@ public class MaxHeapBuilder {
 
     public static void main(String[] args){
         MaxHeapBuilder builder = new MaxHeapBuilder();
-        int[] arr = {1,4,3,7,8,9,10};
+        int[] arr = {6, 5, 3, 2, 8, 10, 9};
         System.out.println("Elements before ");
         builder.print(arr);
         System.out.println("Elements after ");

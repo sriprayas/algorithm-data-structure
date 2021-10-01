@@ -1,4 +1,4 @@
-package main.java.com.tree.bst;
+package main.java.com.tree;
 
 public class JoinAdjacentNode {
 

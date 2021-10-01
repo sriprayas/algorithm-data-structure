@@ -47,8 +47,9 @@ public class FloorCeilBST {
         root.left.right = new Node(6);
         root.right.left = new Node(10);
         root.right.right = new Node(14);
+        root.right.left.right = new Node(11);
 
-        System.out.println(" floor = " + tree.findFloor(root, 1));
+        System.out.println(" floor = " + tree.findFloor(root, 11));
 
         /*for (int i = 0; i < 16; i++) {
 

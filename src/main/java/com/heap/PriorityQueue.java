@@ -100,7 +100,7 @@ public class PriorityQueue {
 
     public static void main(String[] args){
         PriorityQueue priorityQueue = new PriorityQueue();
-        priorityQueue.insert(35);
+        /*priorityQueue.insert(35);
         priorityQueue.insert(26);
         priorityQueue.insert(33);
         priorityQueue.insert(15);
@@ -112,7 +112,11 @@ public class PriorityQueue {
         priorityQueue.insert(23);
         priorityQueue.insert(21);
         priorityQueue.insert(2);
-        priorityQueue.insert(34);
+        priorityQueue.insert(34);*/
+        int[] arr = {1,4,3,7,8,9};
+        for(int e : arr){
+            priorityQueue.insert(e);
+        }
         System.out.println("Elements of Priority Queue are ");
         priorityQueue.print(priorityQueue.elePQ);
         System.out.println("Highest Priority Element is : " + priorityQueue.removeMax());
